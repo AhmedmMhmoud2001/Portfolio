@@ -1,0 +1,148 @@
+/* global value */
+:root {
+    --bg-black-900:#f2f2fc;
+    --bg-black-100:#fdf9ff;
+    --bg-black-50:#e8dfec;
+    --text-black-900:#302e4d;
+    --text-black-700:#504e70;
+    --skin-color:#e71919;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  outline: none;
+  text-decoration: none !important;
+  text-decoration-line: none;
+  box-sizing: border-box;
+}
+body {
+    line-height: 1.5;
+    font-size: 16px;
+    color: var(--bg-black-900);
+    background: var(--text-black-900);
+}
+::after , ::before{
+    box-sizing: border-box;
+}
+/* global value */
+
+
+/* start home  */
+.home {
+    padding: 70px 0px 0px ;
+}
+.home .container .row {
+    align-items: center;
+}
+.home .images {
+    height: 30rem;
+    width: 30rem;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    background-color: var(--skin-color);
+    text-align: center;
+}
+.home .images img{
+    height: 25rem;
+    width: 25rem;
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+}
+h3.hello span {
+    font-family:cursive;
+    font-weight: 700;
+    color: var(--skin-color);
+}
+h2 .typing {
+    color: var(--skin-color);
+    font-weight: 700;
+}
+.home-info p {
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+.btn {
+    background-color:var(--skin-color) ;
+    font-size: 20px;
+    font-weight: 500;
+    color:#fff;
+    transition: all 0.3s ease;
+    border-radius: 50px !important;
+}
+.btn:hover {
+    color:#fff;
+    transform:scale(1.1);
+}
+
+
+.portfolio {
+    margin: 60px;
+}
+.portfolio h2 {
+    color: var(--skin-color);
+    font-weight: 700;
+}
+.portfolio-img {
+    margin: 30px 0px;
+    width: 100%;
+    position: relative;
+}
+
+.portfolio-img img {
+    width: 100%;
+}
+.portfolio-img img:hover + .portfolio-info{
+    visibility: visible;
+}
+.portfolio-img .portfolio-info {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    width:100%;
+    height: 100%;
+    background: #1a1a1a8e;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    visibility: hidden;
+}
+.portfolio-img .portfolio-info:hover{
+    visibility: visible;
+}
+
+
+.About{
+    margin:60px 0px;
+}
+.About h2 {
+    color: var(--skin-color);
+    font-weight: 700;
+    margin:40px 0px;
+}
+.About .PERSONAL h3 {
+    margin:20px 0px ;
+}
+.About .PERSONAL p {
+   font-weight: 500;
+   font-size: 18px;
+   
+}
+.About .PERSONAL span{
+    opacity: .5;
+}
+.About .sec {
+    margin:30px 0px;
+    border-radius:15px;
+    width: 100%;
+    height: 125px;
+    background: rgb(82, 78, 78);
+    text-align: center;
+    padding-top: 30px;
+}
+.contact h2,h4{
+    color: var(--skin-color);
+    font-weight: 700;
+    margin:40px 0px;
+}
